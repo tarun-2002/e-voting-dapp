@@ -27,7 +27,7 @@ This project is a Distributed Application (Dapp) built on the Ethereum blockchai
 
 ## Installation
 1. Clone the repository:
-git clone https://github.com/=AbhirajkarBajpai/E-Voting_Dapp.git
+git clone https://github.com/tarun-2002/e-voting-dapp.git
 2. Install dependencies:
 npm install
 cd client
