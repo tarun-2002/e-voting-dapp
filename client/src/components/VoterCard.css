@@ -1,0 +1,46 @@
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card_box {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: calc(33.33% - 20px); /* Adjust the width based on the number of cards per row */
+  max-width: 300px; /* Limit the maximum width of each card */
+}
+
+.image {
+  text-align: center;
+}
+
+.image img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.card_info {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.vote_Status {
+  font-weight: bold;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .card_box {
+    width: calc(50% - 20px); /* Two cards per row on smaller screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .card_box {
+    width: 100%; /* Single card per row on smaller screens */
+  }
+}

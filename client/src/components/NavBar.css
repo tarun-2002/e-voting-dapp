@@ -1,0 +1,181 @@
+
+/* .navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); 
+  }
+  
+  
+  .message_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+    margin-bottom: 10px; 
+  }
+  
+  .message {
+    background-color: #f0ad4e; 
+    color: #fff; 
+    padding: 10px;
+    border-radius: 5px; 
+  }
+  
+  
+  .navbar_box {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%; 
+  }
+  
+ 
+  .title {
+    flex: 1; 
+  }
+  
+  .title a {
+    text-decoration: none; 
+    color: black; 
+  }
+  
+  
+  .connect {
+    display: flex; 
+    align-items: center; 
+  }
+  
+  .connect button {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px; 
+  }
+  
+  .connect button:hover {
+    background-color: #45a049; 
+  }
+  
+  
+  .connect_flex {
+    display: flex;
+    align-items: center; }
+  
+  .connect_flex button {
+    background-color: transparent; 
+    border: none;
+    color: black; 
+    padding: 0; 
+    cursor: default; 
+    margin-right: 5px; 
+  }
+  
+  
+  .navigation {
+    background-color: #fff; 
+    border-radius: 5px; 
+    padding: 10px; 
+    position: absolute; 
+    top: 100%; 
+    left: 0; 
+    width: 100%; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    
+  }
+  
+  
+  
+  .navigation p {
+    margin: 5px 0; 
+  }
+  
+  .navigation a {
+    text-decoration: none; 
+    color: black; 
+  } */
+
+  /* chatgpt */
+  /* NavBar.css */
+
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.message_box {
+  background-color: #f44336;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.message {
+  color: #fff;
+}
+
+.navbar_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title img {
+  width: 100px; 
+}
+
+.connect_flex {
+  display: flex;
+  align-items: center;
+}
+
+.connect_flex button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.connect_flex button:hover {
+  background-color: #0056b3;
+}
+
+.navigation {
+  background-color: #444;
+  padding: 10px;
+}
+
+.navigation p {
+  margin: 5px 0;
+}
+
+.navigation a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navigation a:hover {
+  text-decoration: underline;
+}
+
+
+.connect_flex span {
+  font-size: 24px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.connect_flex span:hover {
+  color: #ccc;
+} 

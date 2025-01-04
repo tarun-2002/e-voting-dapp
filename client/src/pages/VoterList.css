@@ -1,0 +1,12 @@
+/* voterList.css */
+
+.voterList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  /* You can add more styles as needed */
+  

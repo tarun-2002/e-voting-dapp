@@ -1,0 +1,38 @@
+.input {
+  margin-bottom: 20px;
+}
+
+.input p {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.input_box {
+  width: 100%;
+}
+
+.input_box_form {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+}
+
+.input_box_form:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .input p {
+    font-size: 14px;
+  }
+  
+  .input_box_form {
+    font-size: 12px;
+  }
+}

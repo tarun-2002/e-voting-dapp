@@ -1,0 +1,95 @@
+/* MyApp.css */
+
+/* Container styles */
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Winner section styles */
+.winner {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Winner info styles */
+.winner_Info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+/* Candidate and voter list styles */
+.candidate_list {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Winner message styles */
+.winner_message {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Countdown timer styles */
+.winner_message small {
+  color: #333;
+}
+
+/* Card component styles */
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+}
+
+/* Card styles */
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+/* Card content styles */
+.card-content {
+  font-size: 16px;
+}
+
+/* Card action styles */
+.card-action {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+/* Vote button styles */
+.vote-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.vote-button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .winner_Info {
+    flex-direction: column;
+    align-items: center;
+  }
+}
