@@ -41,13 +41,3 @@ npm start
 2. Cast your vote for the desired candidate.
 3. Monitor voting progress and view election results in real time.
 
-## Snapshots
-![Snapshot 1](img/Screenshot%20(2147).png)
-![Snapshot 2](img/Screenshot%20(2148).png)
-![Snapshot 3](img/Screenshot%20(2149).png)
-![Snapshot 4](img/Screenshot%20(2150).png)
-![Snapshot 5](img/Screenshot%20(2151).png)
-![Snapshot 6](img/Screenshot%20(2152).png)
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
